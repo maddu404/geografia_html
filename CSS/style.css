@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+h2{
+  color: #2EAC6D;
+}
+main{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.088);
+ 
+}
+body {
+  font-family: 'Latto', sans-serif;
+  background-color: #F0F0F0;;
+  color: #3C2F3D;
+}
+.navbar{
+  background-color: #2EAC6D;
+}
+header .navbar-brand {
+  color: #F0F0F0;
+  transition: 0.3s;
+}
+header .navbar-brand:hover {
+  color: #9DDA52;
+  font-style: italic;
+}
+header .nav-link {
+  color: #F0F0F0;
+  transition: 0.3s;
+}
+header .nav-link:hover {
+  color: #9DDA52;
+  font-weight: bold;
+  font-style: italic;
+}
+.btn-personalizado {
+  background-color: #2EAC6D;
+  color: #F0F0F0;;
+  border: none;
+  transition: 0.3s;
+}
+.btn-personalizado:hover {
+  background-color: #9DDA52;
+  color: #F0F0F0;;
+  font-style: italic;
+  font-weight: bold;
+}
+p{
+  font-size: 20px;
+}
+
+/*Capa Inicio*/
+.capa {
+ background: url("../Mídia/CapaPrincipal.png") no-repeat center center;
+  background-size: cover;
+  height: 64vh;
+  position: relative;
+
+}
+/*Capa Outras Páginas*/
+.capasub {
+ background: url("..//Mídia/CapaSegundaria.png") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-body{
+  border: 20px #2EAC6D;
+}
+.card-title{
+  color:#2EAC6D;
+  font-weight: bold;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #3C2F3D;
+  color: #F0F0F0;;
+  padding: 20px;
+  font-family: 'Latto', sans-serif;
+}

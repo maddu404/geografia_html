@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energia Renovável e TI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" href="Mídia\lightning-charge-fill.svg" type="image/x-icon">
+</head>
+
+<body>
+
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="início.html">
+          <i class="bi bi-lightning-charge-fill"></i>
+          Energia Limpa
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <div class="navbar-nav fs-4">
+            <a class="nav-link" href="inicio.html">Início</a>
+            <a class="nav-link" href="desafios.html" target="_blank">Desafios</a>
+            <a class="nav-link" href="solucoes.html" target="_blank">Soluções</a>
+            <a class="nav-link" href="contato.html" target="_blank">Contato</a>
+            <a class="nav-link" href="quiz.html" target="_blank">Quiz</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!--Capa-->
+<section class="capa text-center text-white d-flex align-items-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Energia Renovável e TI</h1>
+    <p class="lead">Como software e algoritmos transformam vento e sol em energia disponível quando precisamos. Previsões precisas, despacho inteligente e gerenciamento de armazenamento para reduzir perdas, custos e interrupções</p>
+    <a href="desafios.html" target="_blank" class="btn btn-personalizado btn-lg mt-3">Explorar</a>
+  </div>
+</section>
+
+  <main class="container my-5 p-3 bg-white rounded">
+    <h2 class="text-start fs-1 mt-3">Por que este tema importa?</h2>
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <p style="font-size: 25px;">A geração solar e eólica <strong>cresce rápido</strong>, mas sua variabilidade, dia/noite, nuvens e rajadas de vento. Cria desafios reais para garantir energia estável. Além disso, soluções de armazenamento ainda enfrentam limites de capacidade, eficiência e custo. Essas barreiras impedem que a energia renovável seja plenamente aproveitada sem um suporte forte de software. </p>
+      </div>
+      <div class="col-md-4">
+        <img src="Mídia/passagemDia.gif" alt="Gif Planeta Terra" class="img-fluid rounded-circle shadow" style="width: 330px;">
+      </div>
+    </div>
+    <h2 class="text-start fs-1">Desafios centrais:</h2>
+    <p>
+      <ul style="font-size: 20px;">
+        <li>Armazenamento: perdas, degradação e custos de baterias; necessidade de combinar tecnologias (baterias, térmico, bombeamento) com controle inteligente.</li>
+        <li>Integração à rede: evitar derramamento (curtailment), conciliar oferta variável com demanda, manter estabilidade. </li>
+        <li>Variação da produção: previsão de geração solar/eólica e resposta em tempo real para reduzir incertezas.</li>
+      </ul>
+         <a href="desafios.html" target="_blank" class="btn btn-personalizado">Mais sobre Desafios</a>
+    </p>
+  <h2 class="text-start fs-1">Possíveis Respostas:</h2>
+  <p>
+    <ul style="font-size: 20px;">
+      <li>Modelos preditivos: previsão de geração e de carga para planejar despacho e reduzir desperdício. Otimização do despacho de armazenamento: decidir quando carregar/descargar com base em preço, demanda e previsão (maximiza uso útil e vida útil das baterias).</li>
+      <li>Gerenciamento da rede e redução de curtailment: algoritmos que balanceiam oferta/demanda em tempo real e priorizam recursos.</li>
+      <li>Manutenção preditiva: reduzir falhas e indisponibilidades com análise de sensores e detecção de anomalias.</li>
+    </ul>
+      <a href="solucoes.html" target="_blank" class="btn btn-personalizado">Mais sobre Soluções</a>
+  </p>
+
+   <section>
+    <h2 class="text-center fs-1">🌎 Energias Renováveis + TI</h2>
+   <div class="d-flex justify-content-center mb-3">
+  <div class="btn-group flex-wrap" role="group">
+    <button class="btn btn-personalizado fs-4" data-bs-toggle="collapse" data-bs-target="#cardSolar">Solar</button>
+    <button class="btn btn-personalizado fs-4" data-bs-toggle="collapse" data-bs-target="#cardEolica">Eólica</button>
+    <button class="btn btn-personalizado fs-4" data-bs-toggle="collapse" data-bs-target="#cardHidreletrica">Hidrelétrica</button>
+    <button class="btn btn-personalizado fs-4" data-bs-toggle="collapse" data-bs-target="#cardBiomassa">Biomassa</button>
+    <button class="btn btn-personalizado fs-4" data-bs-toggle="collapse" data-bs-target="#cardGeotermica">Geotérmica</button>
+    <button class="btn btn-personalizado fs-4" data-bs-toggle="collapse" data-bs-target="#cardOceanica">Oceânica</button>
+  </div>
+</div>
+
+                 <div class="row">
+                    <div id="cardSolar" class="collapse col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="Mídia\energia-solar.webp" class="card-img-top" alt="Energia Solar">
+                            <div class="card-body">
+                                <h3 class="card-title">Energia Solar</h3>
+                                <hr>
+                                <p class="card-text">
+                                    Capta a luz do sol por meio de painéis fotovoltaicos ou coletores térmicos, convertendo radiação em eletricidade ou calor. Ideal para geração distribuída e integração a sistemas de armazenamento.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    <div id="cardEolica" class="collapse col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="Mídia\energia-eolica.webp" class="card-img-top" alt="Energia Eólica">
+                            <div class="card-body">
+                                <h3 class="card-title">Energia Eólica</h3>
+                                <hr>
+                                <p class="card-text">
+                                   Gera eletricidade aproveitando a força do vento com turbinas terrestres ou offshore. Escalável e excelente para complementar a matriz onde há ventos constantes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                 
+                    <div id="cardHidreletrica" class="collapse col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="Mídia\usinas-hidreletricas.webp" class="card-img-top"
+                                alt="Energia Hidrelétrica">
+                            <div class="card-body">
+                                <h3 class="card-title">Energia Hidrelétrica</h3>
+                                <hr>
+                                <p class="card-text">
+                                   Produzida pelo movimento da água em rios, reservatórios e usinas; oferece geração estável e capacidade de regular carga, mas requer planejamento ambiental e infraestrutura.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    <div id="cardBiomassa" class="collapse col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="Mídia\Biomassa.webp" class="card-img-top"
+                                alt="Energia Biomassa">
+                            <div class="card-body">
+                                <h3 class="card-title">Energia Biomassa</h3>
+                                <hr>
+                                <p class="card-text">
+                                    Energia obtida a partir de matéria orgânica (resíduos agrícolas, florestais, biogás), usada para calor, eletricidade ou combustíveis. Ajuda a valorizar resíduos e fechar ciclos energéticos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    <div id="cardGeotermica" class="collapse col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="Mídia\Energia-geotermica.webp" class="card-img-top" alt="Energia Geotérmica">
+                            <div class="card-body">
+                                <h3 class="card-title">Energia Geotérmica</h3>
+                                <hr>
+                                <p class="card-text">
+                                   Explora o calor do interior da Terra para gerar vapor, eletricidade ou aquecimento direto. Fonte contínua e de baixa emissão em regiões geotermicamente favoráveis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    <div id="cardOceanica" class="collapse col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="Mídia\ilustracao-turbinas-maremotriz.webp" class="card-img-top" alt="Energia Oceânica">
+                            <div class="card-body">
+                                <h3 class="card-title">Energia Oceânica</h3>
+                                <hr>
+                                <p class="card-text">
+                                   Aproveita o movimento das marés e correntes para produzir eletricidade previsível e estável em áreas costeiras com grande amplitude de maré.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             </div>
+  </section>
+   <p>Se você quer entender como softwares podem reduzir perdas, aumentar a entrega de energia e diminuir custos, explore nosso projeto de pesquisa ou <strong>entre em contato.</strong></p>
+  <a href="contato.html" target="_blank" class="btn btn-personalizado">Entre em Contato</a>
+  </main>
+  <footer class="text-center py-3">
+    <p class="mb-0">© 2025 - Projeto Energia Limpa | Todos os direitos reservados</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soluções - Energia Renovável e TI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" href="Mídia\ui-radios.svg" type="image/x-icon">
+</head>
+
+<body>
+ <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="início.html">
+          <i class="bi bi-lightning-charge-fill"></i>
+          Energia Limpa
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <div class="navbar-nav fs-4">
+            <a class="nav-link" href="inicio.html" target="_blank">Início</a>
+            <a class="nav-link" href="desafios.html" target="_blank">Desafios</a>
+            <a class="nav-link" href="solucoes.html" target="_blank">Soluções</a>
+            <a class="nav-link" href="contato.html" >Contato</a>
+            <a class="nav-link" href="quiz.html" target="_blank">Quiz</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="capasub text-center text-white d-flex align-items-center">
+    <div class="container">
+      <h1 class="fw-bold display-4">Fale Conosco</h1>
+      <p class="lead">Tem dúvidas, sugestões ou ideias? Entre em contato e vamos construir juntos um futuro mais sustentável.</p>
+    </div>
+  </section>
+
+ <main  class="container my-5 p-3 bg-white rounded">
+      <h2><i class="bi bi-envelope-paper"></i> Entre em Contato</h2>
+      <form action="#" method="post">
+        <div class="mb-3">
+          <label for="nome" class="form-label"><i class="bi bi-person-fill"></i> Nome</label>
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label"><i class="bi bi-envelope-fill"></i> E-mail</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="exemplo@email.com" required>
+        </div>
+        <div class="mb-3">
+              <label for="assunto" class="form-label"><i class="bi bi-envelope-paper-fill"></i> Assunto</label>
+              <input type="text" class="form-control" id="assunto" placeholder="Ex: Dúvida sobre projeto" required>
+            </div>
+            <div class="mb-3">
+              <label for="tema" class="form-label"><i class="bi bi-menu-down"></i> Tema</label>
+              <select class="form-select" id="tema" required>
+                <option value="">Selecione...</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="parceria">Parceria</option>
+                <option value="outros">Outros</option>
+              </select>
+            </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label"><i class="bi bi-chat-dots-fill"></i> Mensagem</label>
+          <textarea id="mensagem" name="mensagem" class="form-control" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-personalizado ">
+          <i class="bi bi-send-fill"></i> Enviar
+        </button>
+      </form>
+    </div>
+  </main>
+  
+ <footer class="text-center py-3">
+    <p class="mb-0">© 2025 - Projeto Energia Limpa | Todos os direitos reservados</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
