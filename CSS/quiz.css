@@ -1,10 +1,10 @@
     .quiz-card {
-      background: #FFFF;
+      background: #F0F0F0;
       border-radius: 20px;
       padding: 20px;
       margin-bottom: 25px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
+      transition: transform 0.1s;
     }
     .quiz-card:hover {
       transform: scale(1.01);

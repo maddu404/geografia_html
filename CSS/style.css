@@ -9,12 +9,12 @@ main{
  
 }
 body {
-  font-family: 'Latto', sans-serif;
+  font-family: 'Latto' , sans-serif;
   background-color: #F0F0F0;;
   color: #3C2F3D;
 }
 .navbar{
-  background-color: #2EAC6D;
+  background-color: #2eac6f;
 }
 header .navbar-brand {
   color: #F0F0F0;
